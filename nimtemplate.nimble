@@ -4,6 +4,6 @@ description = "Description of your library"
 license     = "MIT"
 
 srcDir = "src"
-bin = @["myproject"]
+bin = @["nimtemplate"]
 
 requires "nim >= 1.2.2"
