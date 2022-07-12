@@ -46,7 +46,7 @@ jobs:
     - name: Print Nimble version
       run: nimble -v
     - name: Nimble build
-      run: nimble build -Y
+      run: nimble build -Y --verbose
     - name: Run install
       run: nimble install -Y
     - name: Run tests
