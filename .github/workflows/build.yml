@@ -52,4 +52,4 @@ jobs:
     - name: Run tests
       run: nimble test -y
     - name: Run tests orc
-      run: nimble test --gc:orc -y
+      run: nimble test --mm:orc -y
