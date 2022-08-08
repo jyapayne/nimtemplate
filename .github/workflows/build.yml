@@ -37,7 +37,7 @@ jobs:
         key: ${{ runner.os }}-nimble-stable
 
     - name: Setup Nim
-      uses: iffy/install-nim@v3.2.1
+      uses: iffy/install-nim@v4.1.3
       with:
         version: ${{ matrix.version }}
 
